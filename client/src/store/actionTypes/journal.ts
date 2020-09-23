@@ -1,0 +1,2 @@
+export const CREATE_JOURNAL = 'CREATE_JOURNAL'
+export const GET_ALL_JOURNALS = 'GET_ALL_JOURNALS'
