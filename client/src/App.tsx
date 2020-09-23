@@ -92,7 +92,6 @@ function App() {
                 onClick={() => postNewJournal()}
               >Save New Journal</Button>
             </Form>
-            <CheckIfUpdated />
           </div>
         </Col>
       </Row>
