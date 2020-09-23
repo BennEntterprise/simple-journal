@@ -11,6 +11,7 @@ import { useSelector, useDispatch } from 'react-redux'
 
 
 import { addNewJournal } from './store/actionCreators/journal'
+import CheckIfUpdated from './components/CheckIfUpdated';
 function App() {
   const [journal, setJournal] = useState('This is where yo put the journal')
   const journalList = useSelector((state: any) => state.journal.journalList)
@@ -91,6 +92,7 @@ function App() {
                 onClick={() => postNewJournal()}
               >Save New Journal</Button>
             </Form>
+            <CheckIfUpdated />
           </div>
         </Col>
       </Row>
